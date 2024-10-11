@@ -58,7 +58,10 @@ def app_ai(input_text):
         Tool(
             name="get_current_date_and_time",
             func=get_current_day_time,
-            description="Pega o dia e a data",
+                description='''
+                Pega o dia e a data para verificar se o museu está aberto ou se está disponível algum uma visita com um guia. 
+                Considere que a visita com o guia é feita apenas às às 10h, 13h e 15h. 
+                Senão houver mais nenhuma visita com guia no dia. Informe o próximo horário disponível seguindo os horários de funcionamento''',
             input_type=str
         )
     ]
