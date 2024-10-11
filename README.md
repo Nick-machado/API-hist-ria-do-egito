@@ -367,6 +367,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 ## Contato
 
-- **Nome:** Sua Nome
-- **E-mail:** seu.email@exemplo.com
-- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/seuusuario)
+- **Nome:** Nicholas Machado
+- **E-mail:** lafuno123@gmail.com
+- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/nicholas-machado-305979313/)
