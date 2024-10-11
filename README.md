@@ -361,10 +361,6 @@ if __name__ == '__main__':
 4. Faça o push para a branch (`git push origin feature/AmazingFeature`).
 5. Abra um Pull Request.
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
 ## Contato
 
 - **Nome:** Nicholas Machado
