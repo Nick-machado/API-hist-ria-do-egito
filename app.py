@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-import locale
+from babel.dates import format_datetime
 from dotenv import load_dotenv
 from langchain import hub
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
@@ -21,12 +21,9 @@ def app_ai(input_text):
     # Função para obter o dia e a hora atuais
     def get_current_day_time(input_text):
         # Define a localidade para Português do Brasil
-        locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
-        
-        agora = datetime.now()  # Obtém a data e hora atuais
-        dia_semana = agora.strftime('%A')  # Formata o dia da semana
-        horario = agora.strftime('%H:%M:%S')  # Formata o horário
-        
+        agora = datetime.now()
+        dia_semana = format_datetime(agora, "EEEE", locale='pt_BR')
+        horario = agora.strftime('%H:%M:%S')
         return f"Hoje é {dia_semana}, e o horário atual é {horario}."
 
     # Função para recuperar dados relevantes do banco de dados
