@@ -369,4 +369,4 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 - **Nome:** Nicholas Machado
 - **E-mail:** lafuno123@gmail.com
-- **LinkedIn:** [Seu LinkedIn](https://www.linkedin.com/in/nicholas-machado-305979313/)
+- **LinkedIn:** [LinkedIn do Nicholas](https://www.linkedin.com/in/nicholas-machado-305979313/)
